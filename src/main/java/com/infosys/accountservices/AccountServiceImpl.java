@@ -2,7 +2,7 @@ package com.infosys.accountservices;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class AccountServiceImpl implements AccountService, AccountService {
+public class AccountServiceImpl implements AccountService {
 	@Autowired
 	private AccountRepository accountRepo;
 	
